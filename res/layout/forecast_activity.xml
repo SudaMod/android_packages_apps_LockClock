@@ -27,7 +27,7 @@
     <LinearLayout
         android:layout_width="@dimen/forecast_dialog_width"
         android:layout_height="wrap_content"
-        android:background="@drawable/dialog_full_holo_dark"
+        android:background="@android:color/transparent"
         android:gravity="center_vertical"
         android:orientation="vertical" >
 
@@ -55,11 +55,6 @@
                 android:background="?android:attr/selectableItemBackground" />
         </RelativeLayout>
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="1dip"
-            android:paddingTop="4dip"
-            android:background="@android:drawable/divider_horizontal_dark" />
 
         <RelativeLayout
             android:id="@+id/current_view"
@@ -201,6 +196,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_weight="1"
                     android:maxLines="2"
+                    android:textColor="?android:attr/textColorPrimary"
                     android:text="@string/menu_done"
                     style="?android:attr/buttonBarButtonStyle"
                     android:textSize="14sp"
