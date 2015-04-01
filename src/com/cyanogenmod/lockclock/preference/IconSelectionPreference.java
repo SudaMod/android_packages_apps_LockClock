@@ -89,10 +89,10 @@ public class IconSelectionPreference extends DialogPreference implements
     }
 
     private static final IconSetDescriptor ICON_SETS[] = new IconSetDescriptor[] {
-        new IconSetDescriptor("color", R.string.weather_icons_standard,
-                R.drawable.weather_color_28),
         new IconSetDescriptor("mono", R.string.weather_icons_monochrome,
                 R.drawable.weather_28),
+        new IconSetDescriptor("color", R.string.weather_icons_standard,
+                R.drawable.weather_color_28),
         new IconSetDescriptor("vclouds", R.string.weather_icons_vclouds,
                 R.drawable.weather_vclouds_28)
     };
