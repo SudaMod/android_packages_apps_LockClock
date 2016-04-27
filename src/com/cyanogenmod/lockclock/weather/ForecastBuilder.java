@@ -222,8 +222,8 @@ public class ForecastBuilder {
                 highTemp = WeatherUtils.celsiusToFahrenheit(highTemp);
                 tempUnit = FAHRENHEIT;
             }
-            String dayLow = WeatherUtils.formatTemperature(lowTemp, tempUnit);
-            String dayHigh = WeatherUtils.formatTemperature(highTemp, tempUnit);
+            String dayLow = WeatherUtils.formatTemperature(lowTemp, tempUnit).replace("C", "").replace("F", "");
+            String dayHigh = WeatherUtils.formatTemperature(highTemp, tempUnit).replace("C", "").replace("F", "");
             TextView temps = (TextView) forecastItem.findViewById(R.id.weather_temps);
             temps.setText(invertLowHigh ? dayHigh + " " + dayLow : dayLow + " " + dayHigh);
 
