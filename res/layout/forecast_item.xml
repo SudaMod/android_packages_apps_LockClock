@@ -44,11 +44,22 @@
         android:adjustViewBounds="true"
         android:src="@android:drawable/ic_dialog_alert"/>
 
+
     <TextView
         android:id="@+id/weather_temps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="?android:attr/textColorPrimary"
+        style="@style/label_shadow"/>
+
+    <TextView
+        android:id="@+id/weather_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="?android:attr/textColorPrimary"
         style="@style/label_shadow"/>

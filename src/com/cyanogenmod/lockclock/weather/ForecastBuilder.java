@@ -209,6 +209,10 @@ public class ForecastBuilder {
                       color, d.getConditionCode()));
             }
 
+            // Weather Condition
+            TextView weatherCondition = (TextView) forecastItem.findViewById(R.id.weather_condition);
+            weatherCondition.setText(Utils.resolveWeatherCondition(context, d.getConditionCode()));
+
             // Temperatures
             double lowTemp = d.getLow();
             double highTemp = d.getHigh();
