@@ -42,9 +42,9 @@
   <string name="weather_13">陣雪</string>
   <string name="weather_14">小陣雪</string>
   <string name="weather_15">大風雪</string>
-  <string name="weather_16">雪</string>
+  <string name="weather_16">降雪</string>
   <string name="weather_17">冰雹</string>
-  <string name="weather_18">霰</string>
+  <string name="weather_18">冰霰</string>
   <string name="weather_19">塵霾</string>
   <string name="weather_20">有霧</string>
   <string name="weather_21">薄霧</string>
@@ -52,7 +52,7 @@
   <string name="weather_23">狂風</string>
   <string name="weather_24">有風</string>
   <string name="weather_25">寒冷</string>
-  <string name="weather_26">陰</string>
+  <string name="weather_26">陰天</string>
   <!-- Night -->
   <string name="weather_27">多雲</string>
   <!-- Day -->
@@ -62,12 +62,12 @@
   <!-- Day -->
   <string name="weather_30">晴間多雲</string>
   <!-- Night -->
-  <string name="weather_31">晴</string>
+  <string name="weather_31">晴空</string>
   <string name="weather_32">晴朗</string>
   <!-- Night -->
-  <string name="weather_33">晴</string>
+  <string name="weather_33">晴天</string>
   <!-- Day -->
-  <string name="weather_34">晴</string>
+  <string name="weather_34">晴天</string>
   <string name="weather_35">雨加冰雹</string>
   <string name="weather_36">炎熱</string>
   <string name="weather_37">局地雷雨</string>
@@ -100,7 +100,7 @@
   <string name="weather_refreshing">重新整理中</string>
   <string name="weather_last_sync_just_now">剛剛</string>
   <string name="weather_cannot_reach_provider">目前無法連線至 %s</string>
-  <string name="weather_source_not_selected">找不到天氣提供者</string>
+  <string name="weather_source_not_selected">找不到天氣來源</string>
   <string name="weather_tap_to_select_source">輕觸即可選擇</string>
   <!-- Weather - Update frequency -->
   <string name="weather_refresh_manual">手動</string>
@@ -124,7 +124,7 @@
   <string name="clock_font_minutes_title">分鐘使用粗體</string>
   <string name="clock_font_date_title">日期與鬧鐘使用粗體</string>
   <string name="show_alarm_title">顯示下一個鬧鐘</string>
-  <string name="clock_am_pm_title">顯示 AM/PM 指示器</string>
+  <string name="clock_am_pm_title">顯示上午/下午指示器</string>
   <!-- Preferences - Weather -->
   <string name="weather_enabled">已啟用</string>
   <string name="weather_enable">顯示天氣</string>
@@ -147,18 +147,18 @@
   <string name="weather_alternate_icons_summary">選取即可在預設 (彩色) 與替代 (白色) 的圖示之間切換</string>
   <string name="weather_show_when_minimized_title">最小化時顯示</string>
   <string name="weather_show_when_minimized_summary">小工具最小化時顯示天氣資訊摘要</string>
-  <string name="weather_select_location">選取位置</string>
+  <string name="weather_select_location">選擇位置</string>
   <!-- Preferences - Calendar -->
-  <string name="calendar_title">顯示下一個活動</string>
-  <string name="calendars_title">活動日曆</string>
-  <string name="calendars_summary">從這些日曆中尋找活動</string>
+  <string name="calendar_title">顯示下一個事件</string>
+  <string name="calendars_title">事件日曆</string>
+  <string name="calendars_summary">從這些日曆中尋找事件</string>
   <string name="calendars_none_found_summary">找不到日曆</string>
   <string name="calendar_reminders_only_title">僅顯示提醒</string>
   <string name="calendar_reminders_only_summary">僅顯示有提醒的事件</string>
-  <string name="calendar_hide_allday_title">隱藏全天活動</string>
+  <string name="calendar_hide_allday_title">隱藏全天事件</string>
   <string name="calendar_icon_title">日曆圖示</string>
-  <string name="calendar_lookahead_title">活動尋找範圍</string>
-  <string name="calendar_show_location_title">活動地點</string>
+  <string name="calendar_lookahead_title">事件尋找範圍</string>
+  <string name="calendar_show_location_title">事件位置</string>
   <string name="calendar_show_description_title">事件說明</string>
   <string name="calendar_upcoming_events_category">即將開始的事件</string>
   <string name="calendar_highlight_upcoming_events_title">強調顯示事件</string>
